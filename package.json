@@ -4,9 +4,9 @@
   "type": "module",
   "main": "./dist/harper-wrapper.umd.cjs",
   "module": "./dist/harper-wrapper.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/harper-wrapper.js",
       "require": "./dist/harper-wrapper.umd.cjs"
     }
