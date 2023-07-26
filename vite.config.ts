@@ -7,8 +7,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, "src/index.ts"),
-            name: "harper",
-            fileName: "harper"
+            name: "harper-wrapper",
+            fileName: "harper-wrapper"
         },
     },
     plugins: [dts()]
