@@ -1,0 +1,26 @@
+{
+  "name": "harper-wrapper",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/harper-wrapper.umd.cjs",
+  "module": "./dist/harper-wrapper.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/harper-wrapper.js",
+      "require": "./dist/harper-wrapper.umd.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.3.1"
+  },
+  "dependencies": {
+    "harperive": "^2.0.1"
+  }
+}
