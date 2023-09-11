@@ -15,10 +15,10 @@
     "build": "tsc && vite build"
   },
   "devDependencies": {
-    "@types/node": "^20.4.5",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vite-plugin-dts": "^3.3.1"
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.5.3"
   },
   "dependencies": {
     "harperive": "^2.0.1"
